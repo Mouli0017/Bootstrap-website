@@ -1,43 +1,127 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     font-family: "Poppins", sans-serif;
 }
-.mail{
+
+.mail {
     width: 16px;
     height: 16px;
 }
-.fontsize{
+
+.fontsize {
     font-size: 13px;
 }
-.logocolor{
+
+.logocolor {
     color: #f1db25
 }
-.logocolor1{
+
+.logocolor1 {
     fill: #f1db25;
 }
-.banner{
+
+.banner {
     background-image: url(./images/hero-bg.jpg);
     width: 100%;
     background-position: contain;
     background-size: 100%;
-    height:650px;
-    /* background-repeat: no-repeat;
-    background-size: 500px 300px; */
+    height: 580px;
+    background-repeat: no-repeat;
+    /* background-size: 500px 300px; */
 }
-.logoname{
+.banner::before {
+    content: "";
+    position: absolute;
+    /* bottom: 0;
+    left: 0; */
+    width: 100%;
+    height: 580px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.35));
+}
+
+.logoname {
     font-weight: bold;
     color: #ffffff;
     font-size: 20px;
 }
-a:hover{
-    background-color: #1c1c1c;   
+
+a:hover {
+    background-color: #1c1c1c;
 }
 
-.active{
-    background-color: #1c1c1c; 
+a.active {
+    background-color: #1c1c1c;
 }
 
-.menu{
+.menu {
     font-size: 13px;
+    text-transform: uppercase;
+}
+
+.headingcolor {
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.Para{
+    font-size: 13px;
+}
+
+.ourcolor0 {
+    color: #f1db25;
+}
+
+.but {
+    background-color: white;
+    color: #1c1c1c;
+}
+
+.but:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.but1 {
+    background-color: #f1db25;
+    color: white;
+}
+
+.but1:hover {
+    background-color: transparent;
+    color: #f1db25;
+}
+.scroll{
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 100%;
+    text-align: center;
+    background-color: #f1db25 !important;
+    opacity: 1 !important;
+    
+}
+.scroll1{
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 100%;
+    text-align: center;
+    background-color: #f1db25 !important;
+    opacity: 1 !important;
+}
+.scroll2{
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 100%;
+    text-align: center;
+    background-color: #f1db25 !important;
+    opacity: 1 !important;
+}
+
+/* .carousel-indicators :not(.active) {
+    background-color: #f1db25;
+    opacity: 1;
+} */
+.carousel-indicators .active {
+ 
+    background-color: white !important;
 }
