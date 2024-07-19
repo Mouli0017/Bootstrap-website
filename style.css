@@ -9,6 +9,10 @@
     height: 16px;
 }
 
+.topborder {
+    background-color: #1c1c1c;
+}
+
 .fontsize {
     font-size: 13px;
 }
@@ -30,6 +34,7 @@
     background-repeat: no-repeat;
     /* background-size: 500px 300px; */
 }
+
 .banner::before {
     content: "";
     position: absolute;
@@ -64,7 +69,8 @@ a.active {
     color: #ffffff;
     font-weight: 600;
 }
-.Para{
+
+.Para {
     font-size: 13px;
 }
 
@@ -91,16 +97,18 @@ a.active {
     background-color: transparent;
     color: #f1db25;
 }
-.scroll{
+
+.scroll {
     width: 16px !important;
     height: 16px !important;
     border-radius: 100%;
     text-align: center;
     background-color: #f1db25 !important;
     opacity: 1 !important;
-    
+
 }
-.scroll1{
+
+.scroll1 {
     width: 16px !important;
     height: 16px !important;
     border-radius: 100%;
@@ -108,7 +116,8 @@ a.active {
     background-color: #f1db25 !important;
     opacity: 1 !important;
 }
-.scroll2{
+
+.scroll2 {
     width: 16px !important;
     height: 16px !important;
     border-radius: 100%;
@@ -122,6 +131,104 @@ a.active {
     opacity: 1;
 } */
 .carousel-indicators .active {
- 
+
     background-color: white !important;
+}
+
+@media screen and (max-width: 426px) {
+    * {
+        padding: 0%;
+        margin: 0%;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .topborder {
+        width: 100%;
+        background-size: auto;
+        padding: 10px;
+    }
+
+    .fontname {
+        display: none;
+    }
+
+    .banner {
+        width: 100%;
+        background-position: left;
+        background-size: auto;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .navbar-toggler {
+        background-color: transparent;
+        border: 1px solid transparent;
+    }
+
+    .navbar-toggler-icon {
+        width: 40px;
+    }
+
+    .navigationbar {
+        margin-top: 10px !important;
+    }
+
+    .box1 {
+        width: 87%;
+        padding: 0% !important;
+        margin: 0% !important;
+    }
+
+    .headingcolor {
+        margin-left: 23px;
+        width: 100%;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .ourcolor0 {
+        text-align: center;
+    }
+
+    .totalbox {
+        padding: 0% !important;
+        margin: 0% !important;
+    }
+
+    .Para {
+        width: 100%;
+        text-align: center;
+        margin: 0%;
+        padding: 0%;
+        font-size: 14px;
+        padding-left: 29px;
+        margin-top: 15px;
+    }
+
+    .dot{
+      justify-content: center !important;
+      width: 100%;
+      margin: 0%;
+      padding: 0%;
+      margin-left: 20px !important;
+    }
+    .totalheight {
+        width: 100%;
+        height: 450px;
+    }
+    .but1{
+        /* margin-left: 30px !important;
+        margin-top: 18px !important; */
+        padding: 11px 31px !important;
+        margin: 0% !important;
+        margin-top: 18px !important;
+    }
+    .but{
+        margin-top: 18px !important;
+        margin-left: 44px !important;
+        padding: 11px 31px !important;
+        margin-right: 10px;
+    }
 }
