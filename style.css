@@ -135,6 +135,64 @@ a.active {
     background-color: white !important;
 }
 
+.aboutbanner{
+    background-image: url(./images/about-img.jpg);
+    width: 40%;
+    height: 350px;
+    /* margin-top: 75px; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* margin-bottom:60px;
+    margin-left: 120px; */
+    /* position: relative; */
+}
+.about{
+    width: 50%;
+    height: 250px;
+    position: absolute;
+    top: 72px;
+    left: 450px;
+    background-color: white;
+}
+.aboutheading{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0c0c0c;
+    padding-top: 30px;
+    padding-left: 10px;
+    position: relative;
+}
+.aboutheading::before{
+    content: "";
+    width: 32px;
+    height: 7px;
+    background-color: #f1db25;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 12px;
+    top: 62px;
+}
+.aboutpara{
+    width: 100%;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-left: 10px
+
+}
+.aboutread{
+    background-color: #f1db25;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.aboutread.aboutread:hover{
+    background-color: transparent;
+    border-color: #f1db25;
+    color: #f1db25;
+    font-size: 12px;
+}
+
 @media screen and (max-width: 426px) {
     * {
         padding: 0%;
@@ -158,9 +216,9 @@ a.active {
         background-size: auto;
     }
 
-    .menu {
+    /* .menu {
         display: none;
-    }
+    } */
 
     .navbar-toggler {
         background-color: transparent;
@@ -209,9 +267,9 @@ a.active {
 
     .dot{
       justify-content: center !important;
-      width: 100%;
+      width: 90%;
       margin: 0%;
-      padding: 0%;
+      padding: 0% !important;
       margin-left: 20px !important;
     }
     .totalheight {
@@ -230,5 +288,26 @@ a.active {
         margin-left: 44px !important;
         padding: 11px 31px !important;
         margin-right: 10px;
+    }
+    .icon{
+        fill: #ffffff;
+    }
+    .wh{
+        width: 41px;
+        height: 41px;
+    }
+   
+}
+@media screen and (max-width: 768px) {
+    .icon{
+        fill: #ffffff;
+    }
+    .wh{
+        width: 41px;
+        height: 41px;
+    } 
+    .navbar-toggler {
+        background-color: transparent;
+        border: 1px solid transparent;
     }
 }
